@@ -1,0 +1,21 @@
+/*<!-- CSS to change background color of the page --> 
+body {
+	background-color: black;
+}
+<!-- Add a top/left/right/bottom margin to all images --> 
+img {
+	top-margin: 10px;
+	right-margin: 20px;
+	bottom-margin: 10px;
+	left-margin: 20px;
+}
+<!-- Give all images the same margin on all sides --> 
+img {
+	margin: 10px;
+}
+<!-- Make text in an HTML element all uppercase --> 
+p {
+    text-transform: uppercase;
+}
+
+*/
