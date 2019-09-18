@@ -2,20 +2,44 @@
 body {
 	background-color: black;
 }
-<!-- Add a top/left/right/bottom margin to all images --> 
-img {
-	top-margin: 10px;
-	right-margin: 20px;
-	bottom-margin: 10px;
-	left-margin: 20px;
-}
+
 <!-- Give all images the same margin on all sides --> 
-img {
-	margin: 10px;
-}
+
 <!-- Make text in an HTML element all uppercase --> 
 p {
     text-transform: uppercase;
 }
 
 */
+
+
+body {
+	background-image: url('images/drum.png');
+    background-attachment:fixed;
+    background-position: left top;
+    position:absolute;
+	height: 100%;
+	width: 100%;
+ 
+	
+}
+
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+	color: white;
+	z-index: 1010px;
+	background-color: black;
+	left: 40%;
+    position: relative;
+
+    height: 60px;
+    width: 150px;
+    text-align: center;
+    line-height: 50px;
+}
