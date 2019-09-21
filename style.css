@@ -14,15 +14,64 @@ p {
 
 
 body {
-	background-image: url('images/drum.png');
+	background-image: url('images/drum3.jpg');
     background-attachment:fixed;
     background-position: left top;
+    background-size: 100%;
     position:absolute;
 	height: 100%;
 	width: 100%;
- 
+    background-color: #242424;
 	
 }
+
+
+.home{
+    
+    font-size: 60px;
+    width: 90%;
+    height: 70px;
+    margin-left: center;
+    background-color:#1a1a1a; 
+    position: absolute;
+    margin: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 100px;
+}
+
+nav ul{
+    
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    margin-left: center;
+
+
+
+}
+nav ul li{
+    float: left;
+    left: 30%;
+    list-style-type: none;
+    position: relative;
+}
+
+nav ul li a{
+    line-height: -80%;
+    font-size: 24px;
+    padding: 16px 14px;
+    display: block;
+    color: rgb(209, 209, 209);
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+/*
 
 
 a.button {
@@ -30,16 +79,38 @@ a.button {
     -moz-appearance: button;
     appearance: button;
 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-	color: white;
-	z-index: 1010px;
-	background-color: black;
-	left: 40%;
-    position: relative;
+  
+}
 
-    height: 60px;
-    width: 150px;
+.button{
+    background-color:black;
+    border:transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+	color:darkgray;
+	z-index: 1010px;
+	
+	left: 10%;
+    position: relative;
+    
+
+    margin-top: 70px;
+    height: 65px;
+    width: 170px;
     text-align: center;
     line-height: 50px;
+
+}
+*/
+
+
+
+.welcome{
+    font-size: 22px;
+    color: whitesmoke;
+    margin-top: 500px;
+    
+    position: absolute;
+   
+    text-align: center;
 }
