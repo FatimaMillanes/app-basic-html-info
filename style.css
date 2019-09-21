@@ -1,16 +1,4 @@
-/*<!-- CSS to change background color of the page --> 
-body {
-	background-color: black;
-}
 
-<!-- Give all images the same margin on all sides --> 
-
-<!-- Make text in an HTML element all uppercase --> 
-p {
-    text-transform: uppercase;
-}
-
-*/
 
 
 body {
@@ -32,7 +20,7 @@ body {
     width: 90%;
     height: 70px;
     margin-left: center;
-    background-color:#1a1a1a; 
+    background-color:#1a1a1ad5; 
     position: absolute;
     margin: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -106,11 +94,169 @@ a.button {
 
 
 .welcome{
-    font-size: 22px;
+    font-size: 60px;
     color: whitesmoke;
     margin-top: 500px;
     
     position: absolute;
-   
+    margin-left: 10%;
     text-align: center;
+    margin-top: 350px;
+}
+.rectangle{
+    height: 450px;
+    width: 900px;
+    background-color: #1a1a1ad0;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 15%;
+    border-radius: 50px;
+    border: #1a1a1a;
+    font-size: 25px;
+    text-align: justify;
+    padding: 60px 40px 40px 40px;
+    
+}
+
+.footnote{
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    margin-top:100%;
+    background-color:#1a1a1a;
+    left: 0%;
+    margin-left: center;
+    border-radius: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+   text-align: center;
+   position: absolute;
+    
+
+}
+
+.img1{
+    position: absolute;
+    width: 590px;
+    margin-left: 15%;
+    border-radius: 50px;
+    margin-top: 900px;
+
+}
+.img2{
+    position: absolute;
+    width: 340px;
+    margin-left: 57%;
+    border-radius: 50px;
+    margin-top: 900px;
+
+}
+.img3{
+    position: absolute;
+    width: 60%;
+    margin-left: center;
+    left: 20%;
+    margin-top: 300px;
+    z-index: 100;
+    
+}
+.rectangle2{
+    position: absolute;
+    background-color: #242424ee;
+    width:70%;
+    height: 200px;
+    z-index: -500;
+    margin-top: 290px;
+    left: 14%;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size: 25px;
+   text-align: justify;
+   position: absolute;
+   padding: 60px 40px 40px 40px;
+   line-height: 40px;
+}
+.rectangle3{
+    position: absolute;
+    background-color: #242424ee;
+    width:65%;
+    height: 260px;
+    z-index: -500;
+    margin-top:70%;
+    left: 15%;
+    
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size: 25px;
+   text-align: justify;
+   position: absolute;
+   padding: 60px 40px 40px 40px;
+   line-height: 40px;
+}
+.img4{
+    position: absolute;
+ 
+    width:100%;
+    height: 700px;
+    z-index: -500;
+    margin-top: 290px;
+ margin-left: 0%;
+opacity: 0.8;
+    
+}
+.img5{
+    position: absolute;
+ 
+    width:75.3%;
+
+    z-index: -500;
+    margin-top: 580px;
+    left: 14%;
+}
+.img6{
+   
+    position: absolute;
+ 
+    width:30%;
+
+    z-index: -500;
+    margin-top: 200px;
+    left: 20%;
+}
+.img7{
+   
+    position: absolute;
+ 
+    width:30%;
+
+    z-index: -500;
+    margin-top: 200px;
+    left: 50%;
+}
+.img8{
+   
+    position: absolute;
+ 
+    width:30%;
+
+    z-index: -500;
+    margin-top: 650px;
+    left: 20%;
+}
+.img9{
+   
+    position: absolute;
+ 
+    width:30%;
+
+    z-index: -500;
+    margin-top: 650px;
+    left: 50%;
 }
